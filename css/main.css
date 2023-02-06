@@ -12,13 +12,27 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    height: 70px;
     display: flex;
     justify-content: space-around;
     transition: 0.6s;
     padding: 30px 20px;
     z-index: 10;
     background: #F5EEF8;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
 }
+
+.container{
+    
+    margin-bottom: 3%;
+    
+}
+
+.logo{
+    text-decoration: none;
+    margin-bottom: 4%;
+}
+
 header.abajo{
     background: #f3f3f3;
     padding: 15px 20px;
@@ -27,6 +41,7 @@ header.abajo{
 
 
 /*===================MENU==========================*/
+
 
  #menu a, button{
      font-size: 18px !important;
@@ -40,6 +55,10 @@ header.abajo{
      
  }
 
+ #menu li:hover{
+    color: #ff9100;
+    border-bottom: 4px solid #02551c; 
+}
 
 /*===================SLIDER DE IMAGENES==========================*/
 
@@ -62,6 +81,8 @@ header.abajo{
     background: url(../img/mapa2.jpg);
     width:100%;
     height:500px;
+    margin-top: 5%;
+    margin-left: 5%;
 }
 
 
@@ -76,6 +97,7 @@ header.abajo{
 /*=========================CONTACTOS BACKGROUND================================*/
 
 #bg-contactos{
+    
     position:relative;
     top: -130px;
 } 
@@ -84,6 +106,7 @@ header.abajo{
     background-color: #1b2a4e;
     min-height:500px;
     position:relative;
+    
 }
 
 /*=========================CONTACTOS FORMULARIO================================*/
@@ -220,3 +243,4 @@ footer p{
         line-height: 66px;
 	}
 }
+
